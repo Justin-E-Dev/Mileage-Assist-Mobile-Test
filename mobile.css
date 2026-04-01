@@ -102,7 +102,7 @@ h3 {
 
 .add-contact-btn {
     z-index: 100;
-    margin-top: 69vh;
+    margin-top: 74vh;
     position: absolute;
     background-color: transparent;
     border: none;
@@ -145,4 +145,60 @@ h3 {
 
 .name-card-dropdown-icon {
     color: rgb(9, 45, 54);
+}
+
+
+
+.add-contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    transform: translate(5%, -275%);
+    background-color: white;
+    border-radius: 20px;;
+    width: 90%;
+    height: auto;
+    z-index: 1001;
+}
+
+.add-contact-form h2 {
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 8px;
+    background-color: rgb(32, 162, 195);
+    border-radius: 18px 18px 0px 0px;
+    width: 90%;
+}
+
+.add-contact-form input {
+    width: 80%;
+    padding: 8px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.done-btn {
+    width: 90%;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(32, 162, 195);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    transition: 0.2s;
+}
+
+.done-btn:active {
+background-color: rgb(23, 107, 128);
 }
