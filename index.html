@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="mobile.css?v=4">
+    <link rel="stylesheet" href="mobile.css">
 </head>
 <body>
 
@@ -13,7 +13,6 @@
 
 
     <div class="heading-container">
-
         <div class="menu-btn-container">
             <img class="menu-btn" src="three-dots-vertical.svg" alt="Menu Icon">
         </div>
@@ -83,7 +82,7 @@
         </div>
 
           <!--<button class="add-contact-btn"><img class="add-person-icon" src="person-plus-fill.svg" alt=""></button>-->  
-            <button class="add-contact-btn">
+            <button id="add-contact-btn" class="add-contact-btn">
                 <svg xmlns="http://www.w3.org/2000/svg"fill="currentColor" class="plus-btn" viewBox="0 0 16 16">
                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z"/>
                 </svg>
@@ -93,7 +92,15 @@
 
 </div>
 
+<div id="add-contact-form" class="add-contact-form">
+    <h2>Client Information</h2>
+    <input type="text" placeholder="First name">
+    <input type="text" placeholder="Last name">
+    <input type="text" placeholder="Program (Eg: MDFT, SAP, OP)">
+    <button class="done-btn">Done &#10003</button>
+</div>
 
 
+<script src="mobile.js"></script>
 </body>
 </html>
