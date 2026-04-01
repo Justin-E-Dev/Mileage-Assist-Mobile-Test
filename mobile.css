@@ -2,15 +2,9 @@
     margin: 0px
 }
 
-html, body {
-    height: 100%;
-}
-
 body {
     max-width: 500px;
     max-height: 800px;
-    min-height: 100vh;
-    min-height: 100dvh;
     background-color: rgb(19, 92, 110);
 }
 
@@ -89,7 +83,7 @@ h3 {
     margin-top: 90px;
     height: 82vh;
     width: 90%;
-    background-color: rgb(9, 45, 54);
+      background-image: linear-gradient(to bottom, rgb(9, 45, 54), rgb(4, 20, 24));
     border-radius: 20px;
 }
 
@@ -127,10 +121,9 @@ h3 {
     width: 85%;
 }
 
+
 .name-cards-background {
-    background-color: rgb(4, 20, 24);
     border-radius: 10px;
-    border: 10px solid rgb(4, 20, 24);
     width: 85%;
     height: 60vh;
 }
